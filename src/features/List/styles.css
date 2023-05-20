@@ -1,0 +1,43 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+ 
+tr:hover{
+  background-color:rgb(220, 220, 220) ;
+  cursor: pointer;
+}
+
+  .pagination{
+    padding:10px;
+    margin : 15px ;
+    display:flex;
+    justify-content: center;
+  }
+  .pagination > span{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+
+  .pagination_selected{
+    background-color: rgb(220, 220, 220);
+  }
+  .pagination__disable{
+    opacity:0
+  }
+
+
+  .avatar_styles{
+    width: 61px;
+    object-fit: cover;
+  }
